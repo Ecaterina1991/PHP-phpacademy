@@ -166,60 +166,53 @@ Ce este o bucla si la ce ne ajuta?
 
 //exercitiu cu foreach (afisarea numelui studentului + notele acestuia)
 
-$students = [
-  ["name" => "Maria",
-  "grades" => [8,7,9,6]
-],
-[
-  "name"=>"Ciprian",
-  "grade" => [9,9,8,10]
-],
-[
-  "name" => "Alex",
-  "grades" => [7,6,8,7]
-]
-];
+// $students = [
+//   ["name" => "Maria",
+//   "grades" => [8,7,9,6]
+// ],
+// [
+//   "name"=>"Ciprian",
+//   "grade" => [9,9,8,10]
+// ],
+// [
+//   "name" => "Alex",
+//   "grades" => [7,6,8,7]
+// ]
+// ];
 
-//calculam media, afisam
+// //calculam media, afisam
 
-foreach($students as $student) {
-  $name = $student["name"];
-  $grades = $studend["grades"];
-  $sum = 0;
-  foreach($grades as $grade) {
-    $sum += $grade;
-  }
-}
+// foreach($students as $student) {
+//   $name = $student["name"];
+//   $grades = $studend["grades"];
+//   $sum = 0;
+//   foreach($grades as $grade) {
+//     $sum += $grade;
+//   }
+// }
 
-$average = $sum / count($grades);
+// $average = $sum / count($grades);
 
-echo "Studentul $name are urmatoarele note: ";
+// echo "Studentul $name are urmatoarele note: ";
 
-foreach($grades as $index => $grade) {
-  echo $grade;
+// foreach($grades as $index => $grade) {
+//   echo $grade;
 
-  if ($index !== count($grades)-1) {
-    echo ", ";
-  }
-}
-  echo "</br>";
-  echo "Media {$average}";
-  echo "<br><br>";
-
-//provocare pt data viitoare. gasiti eroarea ce nu face sa afiseze toti studentii
-
-//2. utilizand bucla for sau while, doresc sa fie afisat CNP(random) iar ingrosat cu rosu sa fie ultimile 6 cifre din CNP utilizand bold si css
-
-//3. afisati intr-un tabel urmatoarele: costul produsului (ales de voi) pana la 10 de exemplu: lapte, pretul 2.89 inmultit cu cat pana la 10 (10 fiind cantitatea)
-
-//4. utilizand for, si nu foreach afisati intr-un tabel urmatoarele:
-
-  //orar (luni: activitatile dvs, marti la fel pana vineri), utilizand html si css
-
-  //5. utilizand while + if, else, if (afisati produsul $scaune, daca cumperi 10 scaune primesti o reducere de 5%, daca cumperi 10 scaune primesti 90% reducere, pretul va fi 19 lei)
+//   if ($index !== count($grades)-1) {
+//     echo ", ";
+//   }
+// }
+//   echo "</br>";
+//   echo "Media {$average}";
+//   echo "<br><br>";
 
 
-//25 iunie.
-//se va reveni cu exercitii php + javascript
+//Ultimul cod, retrimis
+
+
+
+
+
+
 
 ?>

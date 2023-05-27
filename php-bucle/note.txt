@@ -1,0 +1,12 @@
+
+//3. afisati intr-un tabel urmatoarele: costul produsului (ales de voi) pana la 10 de exemplu: lapte, pretul 2.89 inmultit cu cat pana la 10 (10 fiind cantitatea)
+
+//4. utilizand for, si nu foreach afisati intr-un tabel urmatoarele:
+
+  //orar (luni: activitatile dvs, marti la fel pana vineri), utilizand html si css
+
+  //5. utilizand while + if, else, if (afisati produsul $scaune, daca cumperi 10 scaune primesti o reducere de 5%, daca cumperi 10 scaune primesti 90% reducere, pretul va fi 19 lei)
+
+
+//25 iunie.
+//se va reveni cu exercitii php + javascript

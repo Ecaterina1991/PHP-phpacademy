@@ -40,6 +40,8 @@ table {
 //Utilizand for, si nu foreach afisati intr-un tabel urmatoarele:
 //orar (luni: activitatile dvs, marti la fel pana vineri), utilizand html si css
 
+//estimez ca aici am trisat utilizand for pentru o iteratie de o singura unitate, doar ca sa se respecte conditia sarcinii, dar voi reveni cu o alta incercare
+
 
 $act_luni = <<<ACT
 <ul class = "list">

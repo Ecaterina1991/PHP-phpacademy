@@ -38,6 +38,8 @@ table {
 
 //estimez ca aici am trisat utilizand for pentru o iteratie de o singura unitate, doar ca sa se respecte conditia sarcinii, dar voi reveni cu o alta incercare
 
+//Am revenit si a doua versiune a tabelului se afla in fisierul tema4-v2.php
+
 
 $act_luni = <<<ACT
 <ul class = "list">

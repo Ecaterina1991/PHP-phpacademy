@@ -32,10 +32,6 @@ table {
 
 
 
-
-
-
-
 <?php
 //Utilizand for, si nu foreach afisati intr-un tabel urmatoarele:
 //orar (luni: activitatile dvs, marti la fel pana vineri), utilizand html si css

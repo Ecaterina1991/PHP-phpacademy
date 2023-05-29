@@ -57,26 +57,56 @@
 
 //editare primele 6 cifre din cnp random
 
+//prima cifra: 1-8 (index 0)
+//ultimele 2 cifre an nastere (index 1 si 2)
+//luna nasterii intre 01 si 12 (index 3 si 4)
+//ziua nasterii intre 01 si 28/29/30/31 (index 5 si 6)
+
 $cnp = "";
 
 for($i=1; $i<=7; $i++) {
-$j = rand(0,9);
-$cnp .= $j;
+if ($i==1) {
+  $cnp .= strval(rand(1,8));
+}
+if($i==2 || $i==3) {
+  $cnp .= strval(rand(0,9));
 }
 
-//echo $cnp;
+if($i==4) {
+  
+  $zi = strval(rand(1,12));
+  
+  if($zi>=10 && $zi<=12) {
+     $cnp.= $zi;
+  }
+  elseif ($zi>=1 && $zi<=9) {
+    $concat = "0".strval($zi);
+    $cnp = $cnp . $concat;
+  }
+    }
+
+  if($i==6) {
+   
+            $zi2 = strval(rand(1,31));
+            if($zi2>=10 && $zi2<=31) {
+               $cnp.= $zi2;
+            }
+            elseif ($zi2>=1 && $zi2<=9) {
+              $concat2 = "0".strval($zi2);
+              $cnp = $cnp . $concat2;
+            }
+      }
+    }
 
 
-//editare ultimele 6 cifre din cnp random rosu bold
-
-$cnp2 = "";
+$cnp3 = "";
 
 for($i=1; $i<=6; $i++) {
 $k = rand(0,9);
-$cnp2 .= $k;
+$cnp3 .= $k;
 }
 
-echo "CNP:".$cnp;
-?><span style="color:red; font-weight: bold;"><?=$cnp2?></span>
+echo "CNP: ".$cnp;
+ ?><span style="color:red; font-weight: bold;"><?=$cnp3?></span>
 
 
